@@ -1,2 +1,2 @@
-# BSIT-1B-Coding
-Coding Storage
+# ITCS102-Fundamentals-of-Computer-Programming
+
