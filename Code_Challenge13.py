@@ -1,8 +1,9 @@
 name = input("Enter Your Name --> ")
 print("\t++++++++++++++++++++++++++++++++++++++\n\tODD NUMBER SUMMATION, press 0 to stop\n\t++++++++++++++++++++++++++++++++++++++")
+number = True
 sum = 0
 odd = ""
-while True:
+while number == True:
     ramdom_number = eval(input("Input a ramdom number --> "))
     if ramdom_number %2 == 1:
         print('ODD NUMBER DETECTED, continue')
@@ -18,5 +19,4 @@ while True:
         else:
             print('Invalid input')
         continue
-print(f'Hi {name}, The sum of all ODD number is {sum}')
-print(f'ODD numbers detected included the ff {odd}')
+print(f'Hi {name}, The sum of all ODD number is {sum}\nODD numbers detected included the ff {odd}')
