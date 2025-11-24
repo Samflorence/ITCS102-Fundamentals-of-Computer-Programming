@@ -6,7 +6,7 @@ print("=============================")
 
 student_record = {}#Empty Dictionary
 while True:
-    print("A - Add Student Record\nB - Print All student Record\nC - Search Student Record\nD - Delete Student Record\nE - Edit Student Record\nF - Export Student Record\nG - Exit System")
+    print("A - Add Student Record\nB - Print All student Record\nC - Search Student Record\nD - Delete Student Record\nE - Edit Student Record\nF - Export Student Record\nG - Import Student Record\nX - Exit System")
     choice = input("Select From the action above -->").lower()
     if choice == 'a' :
         os.system('cls')
@@ -93,12 +93,24 @@ while True:
         os.system('cls')
         print('Export Student Data')
         #json Javascript Object Notation
+                #w - write
         with open ('student_record','w') as new_file:
             json.dump(student_record,new_file, indent=4)
         
         print('\nExport Sucessfull')
         continue
     elif choice == 'g':
+        os.system('cls')
+        print('Import Student Data')
+        #json Javascript Object Notation
+                #r - Rite
+        with open ('student_record','r') as new_file:
+            import_student = json.load(new_file)
+
+        student_record = import_student
+        print('\nImport Sucessfull')
+        continue
+    elif choice == 'x':
         print("Exit System")
         break
     else:
