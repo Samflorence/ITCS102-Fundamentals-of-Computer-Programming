@@ -1,30 +1,49 @@
 import os
+from Learning import *
 print('Learn Python In Weeks Using This Code')
 while True:
     print('\n===========================================')
-    print('\n\t\t1 - 1st Week\n\t\t2 - 2nd Week\n\t\t3 - 3rd Week\n\t\t4 - 4th Week\n\t\tX - Exit')
+    print('\n\t\t1 - 1st Week')
+    print('\n\t\t2 - 2nd Week')
+    print('\n\t\t3 - 3rd Week')
+    print('\n\t\t4 - 4th Week')
+    print('\n\t\tX - Exit')
     print('\n===========================================')
-    count = input('\nPlease Select From Above: ')
+    count = input('\nPlease Select From Above: ').lower()
     
     if count == '1':
         os.system('cls')
         while True:
-            print('\nFirst Week')
-            print('\n===========================================')
-            print('\n\tA - What Is Python\n\tB - Basic Printing in python\n\tC - Go Back')
-            print('\n===========================================')
-            day = input('Please Select From Above: ')
+            print('\n~~~~~~~~~~~~~~~First Week~~~~~~~~~~~~~~~~~')
+            print('\n\tA - What Is Python')
+            print('\n\tB - Using the print() Function')
+            print('\n\tC - Using the input() Function')
+            print('\n\tC - Using the _______ Function')
+            print('\n\tX - Go Back')
+            print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+            day = input('Please Select From Above: ').lower()
             
             if day == 'a':
-                pass
+                os.system('cls')
+                print('Coding is a coding language that is beginer friendly')
+                input('Press Enter to continue: ')
                 continue
             elif day == 'b':
-                pass
+                os.system('cls')
+                printing()
                 continue
             elif day == 'c':
+                os.system('cls')
                 pass
+                continue
+            elif day == 'd':
+                os.system('cls')
+                pass
+                continue
+            elif day == 'x':
                 break
             else:
+                os.system('cls')
                 print('Invalid Input Please Choose Again')
                 continue    
         continue
@@ -38,8 +57,9 @@ while True:
         pass
         continue
     elif count == 'x':
-        print('\nExiting')
+        print('\nGood bye!')
         break
     else:
+        os.system('cls')
         print('\nInput Invalid Please Choose Again')
         continue
