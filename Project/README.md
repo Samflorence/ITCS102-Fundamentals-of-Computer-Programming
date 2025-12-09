@@ -1,6 +1,6 @@
 # Project Title
 
-![Project Logo](logo.png) *(Optional: Add a logo or image related to your project)*
+![Project Logo](https://brandslogos.com/wp-content/uploads/images/large/python-logo.png) 
 
 ## Description
 
