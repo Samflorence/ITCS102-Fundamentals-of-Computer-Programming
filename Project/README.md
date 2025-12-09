@@ -1,32 +1,10 @@
 # Project Title
 
-![Project Logo](https://brandslogos.com/wp-content/uploads/images/large/python-logo.png) 
+![Project Logo](https://brandslogos.com/wp-content/uploads/images/large/python-logo.png)<img src="logo.png" alt="Project Logo" width="100" height="100">
 
 ## Description
 
-Briefly describe what your project does and its purpose. What problem does it solve? Who is it intended for? Why did you decide to build it?
-
-Example:  
-This project is a **Python-based application** that helps users **analyze data** using machine learning models. It is designed to automate the process of data analysis and make predictions based on historical data.
-
-## Features
-
-- **Feature 1**: Describe the core feature of your project.
-- **Feature 2**: Another feature or functionality of the project.
-- **Feature 3**: Mention any unique functionality that sets your project apart.
-- **Feature 4**: Any planned future features or improvements.
-
-## Tech Stack
-
-- **Programming Language**: Python 3.x
-- **Libraries/Frameworks**:
-  - Pandas
-  - NumPy
-  - Scikit-learn
-  - Matplotlib (if applicable)
-  - TensorFlow, PyTorch (if applicable)
-- **Tools**: Jupyter, Visual Studio Code (or other IDEs)
-- **Other**: Any other technologies, services, or integrations you're using.
+This project is a tutorials for beginers who is starting in python this github teach you all the basic commands
 
 ## Installation
 
@@ -42,4 +20,6 @@ Before running the project, make sure you have the following installed:
 1. **Clone the repository**:
    Open your terminal or command prompt and run the following command:
    ```bash
-   git clone https://github.com/yourusername/project-name.git
+   git clone https://github.com/Samflorence/ITCS102-Fundamentals-of-Computer-Programming.git
+   cd ITCS102-Fundamentals-of-Computer-Programming/Project
+
