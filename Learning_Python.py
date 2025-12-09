@@ -7,6 +7,7 @@ while True:
     print('\n\t\t2 - 2nd Week')
     print('\n\t\t3 - 3rd Week')
     print('\n\t\t4 - 4th Week')
+    print('\n\t\t5 - Challenges')
     print('\n\t\tX - Exit')
     print('\n===========================================')
     count = input('\nPlease Select From Above: ').lower()
@@ -18,7 +19,9 @@ while True:
             print('\n\tA - What Is Python')
             print('\n\tB - Using the print() Function')
             print('\n\tC - Using the input() Function')
-            print('\n\tC - Using the _______ Function')
+            print('\n\tD - Using the _______ Function')
+            print('\n\tS - Try it yourself')
+            print('\n\tT - Activity')
             print('\n\tX - Go Back')
             print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
             day = input('Please Select From Above: ').lower()
@@ -54,6 +57,9 @@ while True:
         pass
         continue
     elif count == '4':
+        pass
+        continue
+    elif count == '5':
         pass
         continue
     elif count == 'x':
