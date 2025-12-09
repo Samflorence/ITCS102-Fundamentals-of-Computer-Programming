@@ -1,6 +1,6 @@
 # Project Title
 
-![Project Logo]<img src="logo.png" alt="Project Logo" width="100" height="100">(https://brandslogos.com/wp-content/uploads/images/large/python-logo.png)
+![Project Logo]<img src="[logo.png](https://brandslogos.com/wp-content/uploads/images/large/python-logo.png)" alt="Project Logo" width="100" height="100">
 
 ## Description
 
