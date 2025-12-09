@@ -21,5 +21,4 @@ Before running the project, make sure you have the following installed:
    Open your terminal or command prompt and run the following command:
    ```bash
    git clone https://github.com/Samflorence/ITCS102-Fundamentals-of-Computer-Programming.git
-   cd ITCS102-Fundamentals-of-Computer-Programming/Project
 
