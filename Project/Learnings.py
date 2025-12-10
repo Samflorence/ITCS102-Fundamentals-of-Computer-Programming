@@ -8,6 +8,6 @@ def printing():
 def inputing():
    print("input('Enter Any word')")
    print('===================================')
-
+   print("input(')")
 
    print('\n=================================')
