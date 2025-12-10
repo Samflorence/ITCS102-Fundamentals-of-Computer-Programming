@@ -1,5 +1,5 @@
 import os
-from learning import *
+from Learning import *
 import code
 print('Learn Python In Weeks Using This Code')
 while True:
@@ -60,13 +60,13 @@ while True:
     elif count == '2':
         while True:
             print('\n~~~~~~~~~~~~~~~Second Week~~~~~~~~~~~~~~~~~')
-            print('\n\tA - ')
-            print('\n\tB - ')
-            print('\n\tC - ')
-            print('\n\tD - ')
-            print('\n\tE - ')
-            print('\n\tF - ')
-            print('\n\tG - ')
+            print('\tA - ')
+            print('\tB - ')
+            print('\tC - ')
+            print('\tD - ')
+            print('\tS - Try it yourself')
+            print('\tT - Activity')
+            print('\tX - Go back')
             print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
             day = input('Please Select From Above: ').lower()
             if day == 'a':
@@ -85,13 +85,85 @@ while True:
                 print('Invalid Input Please Choose Again')
         continue
     elif count == '3':
-        pass
+        while True:
+            print('\n~~~~~~~~~~~~~~~Third Week~~~~~~~~~~~~~~~~~')
+            print('\tA - ')
+            print('\tB - ')
+            print('\tC - ')
+            print('\tD - ')
+            print('\tS - Try it yourself')
+            print('\tT - Activity')
+            print('\tX - Go back')
+            print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+            day = input('Please Select From Above: ').lower()
+            if day == 'a':
+                pass
+                continue
+            elif day == 'b':
+                pass 
+                continue
+            elif day == 'c':
+                pass
+                continue
+            elif day == 'x':
+                break
+            else:
+                os.system('cls')
+                print('Invalid Input Please Choose Again')
         continue
     elif count == '4':
-        pass
+        while True:
+            print('\n~~~~~~~~~~~~~~~Forth Week~~~~~~~~~~~~~~~~~')
+            print('\tA - ')
+            print('\tB - ')
+            print('\tC - ')
+            print('\tD - ')
+            print('\tS - Try it yourself')
+            print('\tT - Activity')
+            print('\tX - Go back')
+            print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+            day = input('Please Select From Above: ').lower()
+            if day == 'a':
+                pass
+                continue
+            elif day == 'b':
+                pass 
+                continue
+            elif day == 'c':
+                pass
+                continue
+            elif day == 'x':
+                break
+            else:
+                os.system('cls')
+                print('Invalid Input Please Choose Again')
         continue
     elif count == '5':
-        pass
+        while True:
+            print('\n~~~~~~~~~~~~~~~Fifth Week~~~~~~~~~~~~~~~~~')
+            print('\tA - ')
+            print('\tB - ')
+            print('\tC - ')
+            print('\tD - ')
+            print('\tS - Try it yourself')
+            print('\tT - Activity')
+            print('\tX - Go back')
+            print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+            day = input('Please Select From Above: ').lower()
+            if day == 'a':
+                pass
+                continue
+            elif day == 'b':
+                pass 
+                continue
+            elif day == 'c':
+                pass
+                continue
+            elif day == 'x':
+                break
+            else:
+                os.system('cls')
+                print('Invalid Input Please Choose Again')
         continue
     elif count == 'x':
         print('\nGood bye!')
