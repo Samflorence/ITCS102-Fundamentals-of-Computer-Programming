@@ -1,15 +1,17 @@
 import os
 from Learnings import * 
+introduction()
+user()
 while True:
     print('~~~~~~~~~~~[ MENU ]~~~~~~~~~~~~')
     print('\n\t[1] 1st Week')
-    print('\t[2] 2st Week')
-    print('\t[3] 3st Week')
-    print('\t[4] 4st Week')
+    print('\t[2] 2nd Week')
+    print('\t[3] 3rd Week')
+    print('\t[4] 4th Week')
     print('\t[5] 5th Week')
     print('\t[6] Challenges')
     print('\t[X] Exit')
-    choose = input('\nChoose a lesson ➤  ')
+    choose = input('\nChoose a lesson ➤  ').lower()
     os.system('cls')
     
     if choose == '1':
@@ -28,9 +30,7 @@ while True:
             day = input('\nChoose a lesson ➤  ').lower()
             os.system('cls')
             if day == 'a':
-                print('\nPython is a popular programming language. It was created by Guido van Rossum, and released in 1991.')
-                input('Press Enter to continue: ')
-                os.system('cls')
+                python()
                 continue
             elif day == 'b':
                 printing()
