@@ -96,8 +96,8 @@ while True:
                 print('Invalid Input Please Choose Again')
         continue
     elif choose == '3':
-        loading()
         while True:
+            loading()
             print('\n~~~~~~~~~~~~~~~[ THIRD WEEK ]~~~~~~~~~~~~~~~~~')
             print('\n\t[A] Understanding String Formating\
                   \n\t[B] Understanding Conditional Statement\
@@ -130,8 +130,8 @@ while True:
                 print('Invalid Input Please Choose Again')
         continue
     elif choose == '4':
-        loading()
         while True:
+            loading()
             print('\n~~~~~~~~~~~~~~~[ FORTH WEEK ]~~~~~~~~~~~~~~~~~')
             print('\n\t[A] Understanding For Loop\
                   \n\t[B] Understanding Sum Automation\
@@ -176,8 +176,8 @@ while True:
                 print('Invalid Input Please Choose Again')
         continue
     elif choose == '5':
-        loading()
         while True:
+            loading()
             print('\n~~~~~~~~~~~~~~~[ FIFTH WEEK ]~~~~~~~~~~~~~~~~~')
             print('\n\t[A] Understanding Import Ramdom\
                   \n\t[B] Understanding List Operation\
@@ -214,8 +214,8 @@ while True:
                 print('Invalid Input Please Choose Again')
         continue
     elif choose == '6':
-        loading()
         while True:
+            loading()
             print('\n~~~~~~~~~~~~~~~[ CHALLENGES ]~~~~~~~~~~~~~~~~~')
             print('\t[A] Beginner Level\
                   \n\t[B] Intermediate Level\
