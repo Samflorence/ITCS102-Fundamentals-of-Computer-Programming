@@ -54,7 +54,7 @@ def python():
         \n\n👤 Creator: Guido van Rossum\
         \n📅 First Release: 1991\n')
     print('=' * 100)
-    input('\n➡ Press enter to continue...')
+    input('\nPress enter to continue...')
     os.system('cls')
     
 #LESSON 1
@@ -71,7 +71,7 @@ def printing():
     print('✅ Output')
     print('Hello World\n')
     print('=' * 100)
-    input('\n➡ Press enter to continue...')
+    input('\nPress enter to continue...')
     os.system('cls')
 
 # INPUT
@@ -90,7 +90,7 @@ def inputing():
     word = input("Enter any word: ")
     print('You Enter the Word:', word, '\n')
     print('=' * 100)
-    input('\n➡ Press Enter to continue...')
+    input('\nPress Enter to continue...')
     os.system('cls')
 
 
@@ -184,7 +184,6 @@ def rational_operators():
     print('\n📌 Topic: RATIONAL OPERATORS')
     print('\n▶ Example')
     print('print("5 == 5:", 5 == 5)\nprint("5 != 3:", 5 != 3)\nprint("5 > 3 :", 5 > 3)\nprint("5 < 3 :", 5 < 3)')
-    print('=' * 100)
     print("\n🧠 Explanation - Relational operators compare two values and return either True or False.\
           \nThey are commonly used in decision-making statements like if and while.\
           \nThese operators help programs make choices based on conditions.")
@@ -308,7 +307,7 @@ def sum_automation():
     print('=' * 100)
     print('\n📌 Topic: SUM AUTOMATION')
     print('\n▶ Example')
-    print('total = 0\nfor i in range(1, 11, 1):\n\ttotal += i\nprint("\nTotal =", total)')
+    print('total = 0\nfor i in range(1, 11, 1):\n\ttotal += i\nprint("Total =", total)')
     print("\n🧠 Explanation - This program uses a for loop to automatically add numbers.\
           \nThe variable 'total' is used to store the running sum.\
           \nEach time the loop runs, the current value stored in 'i' is added to 'total'.\
@@ -411,11 +410,11 @@ def import_random():
           \nThe randint(1, 10) function randomly selects an integer between 1 and 10.\
           \nThe print() function CALLS the generated random number and displays it on the screen.")
     print('\n✅ Output')
-
     print("\nRandom number (1 - 10):", random.randint(1, 10))
     print()
     print('=' * 100)
     input('Press Enter to continue... ')
+    os.system('cls')
 
 # LIST OPERATION
 def list_operation():
@@ -464,6 +463,7 @@ def list_operation():
     print()
     print('=' * 100)
     input('Press Enter to continue... ')
+    os.system('cls')
 
 # IMPORTING DEF
 def importing_def():
@@ -483,13 +483,14 @@ def importing_def():
     print()
     print('=' * 100)
     input('Press Enter to continue... ')
+    os.system('cls')
 
 # DICTIONARY OPERATION
 def dictionary_operation():
     print('=' * 100)
     print('\n📌 Topic: DICTIONARY OPERATION')
     print('\n▶ Example')
-    print('student = {"name": "Sam", "age": 18, "course": "IT"}\nprint("\nOriginal:", student)\nstudent["age"] = 19\nprint("Updated:", student)')
+    print('student = {"name": "Sam", "age": 18, "course": "IT"}\nprint("Original:", student)\nstudent["age"] = 19\nprint("Updated:", student)')
     print("\n🧠 Explanation - A dictionary stores data using key-value pairs.\
         \nEach key is used to access its corresponding value.\
         \nValues can be updated by referring to their key name.\
@@ -501,6 +502,7 @@ def dictionary_operation():
     print("Updated:", student)
     print('=' * 100)
     input('Press Enter to continue... ')
+    os.system('cls')
 
 #Notepad coding
 def coding():
